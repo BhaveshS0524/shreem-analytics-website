@@ -2,9 +2,8 @@ import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./styles/**/*.{js,ts,jsx,tsx,mdx}",
+    "./**/*.{js,ts,jsx,tsx,mdx}", // This looks in EVERY folder
+    "!./node_modules/**/*",       // This tells it to ignore the heavy system files
   ],
   theme: {
     extend: {},
