@@ -1,12 +1,4 @@
 {
-  "name": "shreem-analytics",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  {
   "name": "shreem-analytics-website",
   "version": "0.1.0",
   "private": true,
@@ -35,5 +27,4 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.3"
   }
-}
 }
